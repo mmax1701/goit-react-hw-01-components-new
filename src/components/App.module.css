@@ -1,6 +1,11 @@
+/* App.module.css */
+
 .container {
   width: 1300px;
-  margin: 20px;
+  margin: 20px auto; /* центрирует контейнер */
   display: flex;
+  flex-direction: row; /* выравнивает элементы горизонтально */
   justify-content: space-between;
+  gap: 10px; /* добавляет расстояние между элементами */
+  /* flex-wrap: wrap; позволяет элементам переноситься на новую строку при необходимости */
 }
